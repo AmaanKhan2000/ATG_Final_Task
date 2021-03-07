@@ -225,27 +225,27 @@ dot5.addEventListener("click", ()=>
     gsap.from("#b-1", {
         opacity: 0, 
         y: 100, 
-        duration: 0.25
+        duration: 0.5
       });
     gsap.from("#b-2", {
         opacity: 0, 
         y: 100, 
-        duration: 0.25
+        duration: 0.5
       });
     gsap.from("#b-3", {
         opacity: 0, 
         x: 100, 
-        duration: 0.25
+        duration: 0.5
       });
     gsap.from("#b-4", {
         opacity: 0, 
         y: 100, 
-        duration: 0.25
+        duration: 0.5
       });
     gsap.from("#b-5", {
         opacity: 0, 
         y: 100, 
-        duration: 0.25
+        duration: 0.5
       });
   
     for (var i= 0; i<=4; i++)

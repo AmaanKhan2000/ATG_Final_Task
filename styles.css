@@ -113,6 +113,18 @@ p {
   position: absolute;
   top: 40rem;
   color: #bbbbbb;
+  animation: 1s coming-soon ease-in;
+}
+
+@keyframes coming-soon {
+  0% {
+      transform: scale(0.5);
+      -webkit-transform: scale(0.5);
+  }
+  100% {
+      transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+  }
 }
 
 #img1 {
