@@ -37,11 +37,20 @@ dot1.addEventListener("click", ()=>
     page6.style.display='none';
     page7.style.display='none';
 
-    // gsap.from("#svg-content", {
-    //     opacity: 0, 
-    //     y: 100, 
-    //     duration: 1
-    //   });
+    gsap.from(".h1", {
+        opacity: 0, 
+        y: 30, 
+        duration: 1,
+        ease: 'power3.out'
+      });
+      gsap.from(".run", {
+        opacity: 0, 
+        y: -30, 
+        duration: 1,
+        ease: 'power3.out'
+      });
+      gsap.from("#img1", {duration: 1, y:"-100%"})
+    gsap.from("#img2", {duration: 1, y:"100%"})
     
     
     for (var j= 6; j>0; j--)
@@ -66,11 +75,19 @@ dot2.addEventListener("click", ()=>
   page6.style.display='none';
   page7.style.display='none';
 
-  gsap.from("#svg-content", {
+  gsap.from(".h1", {
     opacity: 0, 
-    y: 100, 
-    duration: 1
+    y: 30, 
+    duration: 1,
+    ease: 'power3.out'
   });
+  gsap.from(".run", {
+    opacity: 0, 
+    y: -30, 
+    duration: 1,
+    ease: 'power3.out'
+  });
+  gsap.from("#right-section", {duration:0.85, y: "100%"})
     
     for (var i= 0; i<=1; i++)
     {
@@ -99,11 +116,20 @@ dot3.addEventListener("click", ()=>
   page6.style.display='none';
   page7.style.display='none';
 
-  gsap.from("#svg-content", {
+  gsap.from(".h1", {
     opacity: 0, 
-    y: 100, 
-    duration: 1
+    y: 30, 
+    duration: 1,
+    ease: 'power3.out'
   });
+  gsap.from(".run", {
+    opacity: 0, 
+    y: -30, 
+    duration: 1,
+    ease: 'power3.out'
+  });
+  gsap.from("#page-three-firstpic", {duration: 1, y:"100%"})
+        gsap.from("#page-three-secondpic", {duration: 1, y:"-100%"})
     
     for (var i= 0; i<=2; i++)
     {
@@ -133,10 +159,17 @@ dot4.addEventListener("click", ()=>
     page6.style.display='none';
     page7.style.display='none';
 
-    gsap.from("#svg-content1", {
+    gsap.from(".h1", {
         opacity: 0, 
-        y: 100, 
-        duration: 1
+        y: 30, 
+        duration: 1,
+        ease: 'power3.out'
+      });
+      gsap.from(".run", {
+        opacity: 0, 
+        y: -30, 
+        duration: 1,
+        ease: 'power3.out'
       });
     gsap.from("#g-1", {
         opacity: 0, 
@@ -177,10 +210,17 @@ dot5.addEventListener("click", ()=>
     page6.style.display='none';
     page7.style.display='none';
 
-    gsap.from("#svg-content", {
+    gsap.from(".h1", {
         opacity: 0, 
-        y: 100, 
-        duration: 1
+        y: 30, 
+        duration: 1,
+        ease: 'power3.out'
+      });
+      gsap.from(".run", {
+        opacity: 0, 
+        y: -30, 
+        duration: 1,
+        ease: 'power3.out'
       });
     gsap.from("#b-1", {
         opacity: 0, 
@@ -236,10 +276,17 @@ dot6.addEventListener("click", ()=>
   page7.style.display='none';
 
 
-  gsap.from("#svg-content", {
+  gsap.from(".h1", {
     opacity: 0, 
-    y: 100, 
-    duration: 1
+    y: 30, 
+    duration: 1,
+    ease: 'power3.out'
+  });
+  gsap.from(".run", {
+    opacity: 0, 
+    y: -30, 
+    duration: 1,
+    ease: 'power3.out'
   });
   gsap.from("#page-six-firstpic", {
     opacity: 0, 
@@ -295,10 +342,17 @@ dot7.addEventListener("click", ()=>
     svgring.style.strokeDasharray="820,1000";
     svgring.style.animationDuration='200';
 
-    gsap.from("#svg-content1", {
+    gsap.from(".h1", {
         opacity: 0, 
-        x: 100, 
-        duration: 1
+        y: 30, 
+        duration: 1,
+        ease: 'power3.out'
+      });
+    gsap.from(".run", {
+        opacity: 0, 
+        y: -30, 
+        duration: 1,
+        ease: 'power3.out'
       });
     gsap.from("#o1", {
         opacity: 0, 
