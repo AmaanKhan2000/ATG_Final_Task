@@ -7,7 +7,6 @@
   font-family: "Noto Sans JP", sans-serif;
 }
 
-
 #main-section {
   color: white;
 }
@@ -32,25 +31,54 @@
 }
 
 #svg-circle {
-  background-color: #3d5af1;
+  height: 350px;
+  width: 350px;
+  border: none;
+  border-radius: 500px;
+  position: fixed;
+  top: 60px;
+  left: 28.5%;
+  z-index: 3;
+}
+
+#svg-content {
   height: 350px;
   width: 350px;
   border: none;
   border-radius: 500px;
   position: absolute;
-  top: 50px;
-  left: 30%;
+  top: 60px;
+  left: 22rem;
+  color: white;
   z-index: 1;
 }
 
+.svg-content-color1 {
+  background-color: #3d5af1;
+}
+.svg-content-color2 {
+  background-color: #153e90;
+}
+.svg-content-color3 {
+  background-color: #3e044d;
+}
+.svg-content-color4 {
+  background-color: #2e7447;
+}
+.svg-content-color5 {
+  background-color: #1f45fc;
+}
+.svg-content-color6 {
+  background-color: #1a2639;
+}
+.svg-content-color7 {
+  background-color: #00003f;
+}
 
-
-#svg-content {
+.svg-inner-content {
+  margin-top: 7rem !important;
   position: absolute;
-  top: 11rem;
-  left: 20rem;
-  z-index: 2;
-  color: white;
+  left: -30px;
 }
 #svg-content1 {
   position: absolute;
@@ -78,6 +106,7 @@ p {
 
 .font-size1 {
   font-size: 20px !important;
+  z-index: 2;
 }
 
 #svg {
@@ -118,12 +147,12 @@ p {
 
 @keyframes coming-soon {
   0% {
-      transform: scale(0.5);
-      -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transform: scale(0.5);
   }
   100% {
-      transform: scale(1.1);
-      -webkit-transform: scale(1.1);
+    transform: scale(1);
+    -webkit-transform: scale(1);
   }
 }
 
@@ -156,11 +185,23 @@ p {
   position: relative;
 }
 
+.page-3-svg-content {
+  position: absolute;
+  top: 9.5rem !important;
+  left: 22rem;
+  z-index: 2;
+  color: white;
+}
+
 .color1 {
   background-color: #071a52;
 }
 .color-right-green {
   background-color: #529f6d;
+}
+
+#mobile-section{
+  display:none;
 }
 
 .furn-img {
@@ -284,7 +325,7 @@ p {
 #page5,
 #page6,
 #page7 {
-  display: none;
+  display: block;
 }
 
 .active {
@@ -359,4 +400,71 @@ p {
   position: absolute;
   right: -30px;
   bottom: -80px;
+}
+
+@media only screen and (max-width: 1224px) {
+  #main-section{
+    display: none;
+  }
+  #mobile-section{
+    display:block;
+    position: relative;
+  }
+  #mobile1{
+    position: absolute;
+    top: 40px;
+  }
+  #mobile2{
+
+  }
+  #mobile3{
+
+  }
+  #mobile4{
+
+  }
+  #mobile5{
+
+  }
+  #mobile6{
+
+  }
+  #mobile7{
+
+  }
+  #mobile8{
+
+  }
+  #mobile9{
+
+  }
+  #mobile10{
+
+  }
+  #mobile11{
+
+  }
+  #mobile12{
+
+  }
+  #mobile13{
+
+  }
+  #mobile14{
+
+  }
+  #mobile15{
+
+  }
+  #mobile16{
+
+  }
+  #mobile17{
+
+  }
+  #mobile18{
+
+  }
+
+
 }
